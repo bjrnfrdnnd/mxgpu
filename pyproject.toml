@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mxgpu"
+version = "0.1.0"
+description = ""
+authors = ["Björn Nadrowski <bjrnfrdnnd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.13.1"
+torchvision = "^0.14.1"
+torchaudio = "^0.13.1"
+openai-whisper = {git = "https://github.com/openai/whisper.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
